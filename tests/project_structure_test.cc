@@ -1,7 +1,9 @@
 #include <iostream>
 #include "array_indexer.cuh"
-// Some guidelines to this test no kernel should be in the following seperate compilable list
+
 int main()
 {
+	ArrayIndexer<1,1,1> _array;
+	_array.init();
 	return 0;
 }
